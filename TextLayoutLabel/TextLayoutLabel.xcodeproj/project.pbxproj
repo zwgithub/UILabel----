@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28070002190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070001190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.m */; };
+		28070004190DFB4600BCDC10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28070003190DFB4600BCDC10 /* Images.xcassets */; };
+		2807000B190DFB4600BCDC10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807000A190DFB4600BCDC10 /* XCTest.framework */; };
+		2807000C190DFB4600BCDC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807FFF1190DFB4600BCDC10 /* Foundation.framework */; };
+		2807000D190DFB4600BCDC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807FFF5190DFB4600BCDC10 /* UIKit.framework */; };
+		28070015190DFB4600BCDC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28070013190DFB4600BCDC10 /* InfoPlist.strings */; };
+		28070017190DFB4600BCDC10 /* TextLayoutLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070016190DFB4600BCDC10 /* TextLayoutLabelTests.m */; };
+		28070023190DFBAF00BCDC10 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070022190DFBAF00BCDC10 /* RootViewController.m */; };
+		28070026190DFC0800BCDC10 /* TextLayoutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070025190DFC0800BCDC10 /* TextLayoutLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2807FFF2190DFB4600BCDC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807FFF1190DFB4600BCDC10 /* Foundation.framework */; };
+		2807FFF4190DFB4600BCDC10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807FFF3190DFB4600BCDC10 /* CoreGraphics.framework */; };
+		2807FFF6190DFB4600BCDC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807FFF5190DFB4600BCDC10 /* UIKit.framework */; };
+		2807FFFC190DFB4600BCDC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2807FFFA190DFB4600BCDC10 /* InfoPlist.strings */; };
+		2807FFFE190DFB4600BCDC10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2807FFFD190DFB4600BCDC10 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2807000E190DFB4600BCDC10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2807FFE6190DFB4600BCDC10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2807FFED190DFB4600BCDC10;
+			remoteInfo = TextLayoutLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28070000190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextLayoutLabelAppDelegate.h; sourceTree = "<group>"; };
+		28070001190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLayoutLabelAppDelegate.m; sourceTree = "<group>"; };
+		28070003190DFB4600BCDC10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28070009190DFB4600BCDC10 /* TextLayoutLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextLayoutLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2807000A190DFB4600BCDC10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28070012190DFB4600BCDC10 /* TextLayoutLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextLayoutLabelTests-Info.plist"; sourceTree = "<group>"; };
+		28070014190DFB4600BCDC10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28070016190DFB4600BCDC10 /* TextLayoutLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLayoutLabelTests.m; sourceTree = "<group>"; };
+		28070021190DFBAF00BCDC10 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Class/RootViewController.h; sourceTree = "<group>"; };
+		28070022190DFBAF00BCDC10 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Class/RootViewController.m; sourceTree = "<group>"; };
+		28070024190DFC0800BCDC10 /* TextLayoutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextLayoutLabel.h; path = Class/TextLayoutLabel.h; sourceTree = "<group>"; };
+		28070025190DFC0800BCDC10 /* TextLayoutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextLayoutLabel.m; path = Class/TextLayoutLabel.m; sourceTree = "<group>"; };
+		2807FFEE190DFB4600BCDC10 /* TextLayoutLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextLayoutLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2807FFF1190DFB4600BCDC10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2807FFF3190DFB4600BCDC10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2807FFF5190DFB4600BCDC10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2807FFF9190DFB4600BCDC10 /* TextLayoutLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextLayoutLabel-Info.plist"; sourceTree = "<group>"; };
+		2807FFFB190DFB4600BCDC10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2807FFFD190DFB4600BCDC10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2807FFFF190DFB4600BCDC10 /* TextLayoutLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextLayoutLabel-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28070006190DFB4600BCDC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807000B190DFB4600BCDC10 /* XCTest.framework in Frameworks */,
+				2807000D190DFB4600BCDC10 /* UIKit.framework in Frameworks */,
+				2807000C190DFB4600BCDC10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807FFEB190DFB4600BCDC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807FFF4190DFB4600BCDC10 /* CoreGraphics.framework in Frameworks */,
+				2807FFF6190DFB4600BCDC10 /* UIKit.framework in Frameworks */,
+				2807FFF2190DFB4600BCDC10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28070010190DFB4600BCDC10 /* TextLayoutLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				28070016190DFB4600BCDC10 /* TextLayoutLabelTests.m */,
+				28070011190DFB4600BCDC10 /* Supporting Files */,
+			);
+			path = TextLayoutLabelTests;
+			sourceTree = "<group>";
+		};
+		28070011190DFB4600BCDC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28070012190DFB4600BCDC10 /* TextLayoutLabelTests-Info.plist */,
+				28070013190DFB4600BCDC10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28070020190DFB7D00BCDC10 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				28070021190DFBAF00BCDC10 /* RootViewController.h */,
+				28070022190DFBAF00BCDC10 /* RootViewController.m */,
+				28070024190DFC0800BCDC10 /* TextLayoutLabel.h */,
+				28070025190DFC0800BCDC10 /* TextLayoutLabel.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		2807FFE5190DFB4600BCDC10 = {
+			isa = PBXGroup;
+			children = (
+				28070020190DFB7D00BCDC10 /* Class */,
+				2807FFF7190DFB4600BCDC10 /* TextLayoutLabel */,
+				28070010190DFB4600BCDC10 /* TextLayoutLabelTests */,
+				2807FFF0190DFB4600BCDC10 /* Frameworks */,
+				2807FFEF190DFB4600BCDC10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2807FFEF190DFB4600BCDC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2807FFEE190DFB4600BCDC10 /* TextLayoutLabel.app */,
+				28070009190DFB4600BCDC10 /* TextLayoutLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2807FFF0190DFB4600BCDC10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2807FFF1190DFB4600BCDC10 /* Foundation.framework */,
+				2807FFF3190DFB4600BCDC10 /* CoreGraphics.framework */,
+				2807FFF5190DFB4600BCDC10 /* UIKit.framework */,
+				2807000A190DFB4600BCDC10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2807FFF7190DFB4600BCDC10 /* TextLayoutLabel */ = {
+			isa = PBXGroup;
+			children = (
+				28070000190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.h */,
+				28070001190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.m */,
+				28070003190DFB4600BCDC10 /* Images.xcassets */,
+				2807FFF8190DFB4600BCDC10 /* Supporting Files */,
+			);
+			path = TextLayoutLabel;
+			sourceTree = "<group>";
+		};
+		2807FFF8190DFB4600BCDC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2807FFF9190DFB4600BCDC10 /* TextLayoutLabel-Info.plist */,
+				2807FFFA190DFB4600BCDC10 /* InfoPlist.strings */,
+				2807FFFD190DFB4600BCDC10 /* main.m */,
+				2807FFFF190DFB4600BCDC10 /* TextLayoutLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28070008190DFB4600BCDC10 /* TextLayoutLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2807001D190DFB4600BCDC10 /* Build configuration list for PBXNativeTarget "TextLayoutLabelTests" */;
+			buildPhases = (
+				28070005190DFB4600BCDC10 /* Sources */,
+				28070006190DFB4600BCDC10 /* Frameworks */,
+				28070007190DFB4600BCDC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2807000F190DFB4600BCDC10 /* PBXTargetDependency */,
+			);
+			name = TextLayoutLabelTests;
+			productName = TextLayoutLabelTests;
+			productReference = 28070009190DFB4600BCDC10 /* TextLayoutLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2807FFED190DFB4600BCDC10 /* TextLayoutLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2807001A190DFB4600BCDC10 /* Build configuration list for PBXNativeTarget "TextLayoutLabel" */;
+			buildPhases = (
+				2807FFEA190DFB4600BCDC10 /* Sources */,
+				2807FFEB190DFB4600BCDC10 /* Frameworks */,
+				2807FFEC190DFB4600BCDC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextLayoutLabel;
+			productName = TextLayoutLabel;
+			productReference = 2807FFEE190DFB4600BCDC10 /* TextLayoutLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2807FFE6190DFB4600BCDC10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TextLayoutLabel;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wuyang;
+				TargetAttributes = {
+					28070008190DFB4600BCDC10 = {
+						TestTargetID = 2807FFED190DFB4600BCDC10;
+					};
+				};
+			};
+			buildConfigurationList = 2807FFE9190DFB4600BCDC10 /* Build configuration list for PBXProject "TextLayoutLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2807FFE5190DFB4600BCDC10;
+			productRefGroup = 2807FFEF190DFB4600BCDC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2807FFED190DFB4600BCDC10 /* TextLayoutLabel */,
+				28070008190DFB4600BCDC10 /* TextLayoutLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28070007190DFB4600BCDC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28070015190DFB4600BCDC10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807FFEC190DFB4600BCDC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807FFFC190DFB4600BCDC10 /* InfoPlist.strings in Resources */,
+				28070004190DFB4600BCDC10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28070005190DFB4600BCDC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28070017190DFB4600BCDC10 /* TextLayoutLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807FFEA190DFB4600BCDC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28070002190DFB4600BCDC10 /* TextLayoutLabelAppDelegate.m in Sources */,
+				2807FFFE190DFB4600BCDC10 /* main.m in Sources */,
+				28070023190DFBAF00BCDC10 /* RootViewController.m in Sources */,
+				28070026190DFC0800BCDC10 /* TextLayoutLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2807000F190DFB4600BCDC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2807FFED190DFB4600BCDC10 /* TextLayoutLabel */;
+			targetProxy = 2807000E190DFB4600BCDC10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28070013190DFB4600BCDC10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28070014190DFB4600BCDC10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2807FFFA190DFB4600BCDC10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2807FFFB190DFB4600BCDC10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28070018190DFB4600BCDC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28070019190DFB4600BCDC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2807001B190DFB4600BCDC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLayoutLabel/TextLayoutLabel-Prefix.pch";
+				INFOPLIST_FILE = "TextLayoutLabel/TextLayoutLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2807001C190DFB4600BCDC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLayoutLabel/TextLayoutLabel-Prefix.pch";
+				INFOPLIST_FILE = "TextLayoutLabel/TextLayoutLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2807001E190DFB4600BCDC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextLayoutLabel.app/TextLayoutLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLayoutLabel/TextLayoutLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextLayoutLabelTests/TextLayoutLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2807001F190DFB4600BCDC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextLayoutLabel.app/TextLayoutLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLayoutLabel/TextLayoutLabel-Prefix.pch";
+				INFOPLIST_FILE = "TextLayoutLabelTests/TextLayoutLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2807001A190DFB4600BCDC10 /* Build configuration list for PBXNativeTarget "TextLayoutLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807001B190DFB4600BCDC10 /* Debug */,
+				2807001C190DFB4600BCDC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2807001D190DFB4600BCDC10 /* Build configuration list for PBXNativeTarget "TextLayoutLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807001E190DFB4600BCDC10 /* Debug */,
+				2807001F190DFB4600BCDC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2807FFE9190DFB4600BCDC10 /* Build configuration list for PBXProject "TextLayoutLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28070018190DFB4600BCDC10 /* Debug */,
+				28070019190DFB4600BCDC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2807FFE6190DFB4600BCDC10 /* Project object */;
+}
