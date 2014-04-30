@@ -157,6 +157,8 @@
     int height = [self getAttributedStringHeightWithString:string WidthValue:self.frame.size.width];
     
     [delegate reloadHeight:self.tag LabelHeight:height];
+    
+    NSLog(@"我在此处做了更改");
 }
 
 //计算文本高度
